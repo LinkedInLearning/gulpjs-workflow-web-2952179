@@ -18,9 +18,7 @@ function html(cb) {
 }
 
 function css(cb) {
-  src([`${origin}/css/animate.css`,`${origin}/css/bootstrap.min.css` ]).pipe(dest(`${destination}/css`));
-
-  src(`${origin}/css/style.css`).pipe(sass({outputStyle: 'compressed'})).pipe(dest(`${destination}/css`));
+  src(`${origin}/css/**/*.css`).pipe(dest(`${destination}/css`));
   cb();
 }
 
@@ -36,7 +34,7 @@ function js(cb) {
 function server(cb) {
   browserSync.init({
     notify: false,
-    open: false,
+    open: true,
     server: {
       baseDir: destination
     }   
