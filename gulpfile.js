@@ -29,4 +29,4 @@ function js(cb) {
   cb();
 }
 
-exports.default = series(clean, parallel (html, css, js));
+exports.default = series(clean,html, css, js);
