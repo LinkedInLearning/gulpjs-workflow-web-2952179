@@ -1,11 +1,9 @@
-const {src, dest, series, parallel, watch} = require('gulp');
+const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
-const  browserSync = require("browser-sync").create();
-const sass = require('gulp-sass');
+
+
 const origin = 'src';
 const destination = 'build';
-
-sass.compiler = require('node-sass');
 
 async function clean(cb) {
   await del(destination);
@@ -18,9 +16,7 @@ function html(cb) {
 }
 
 function css(cb) {
-  src([`${origin}/css/animate.css`,`${origin}/css/bootstrap.min.css` ]).pipe(dest(`${destination}/css`));
-
-  src(`${origin}/css/style.css`).pipe(sass({outputStyle: 'compressed'})).pipe(dest(`${destination}/css`));
+  src(`${origin}/css/**/*.css`).pipe(dest(`${destination}/css`));
   cb();
 }
 
@@ -33,24 +29,5 @@ function js(cb) {
   ]).pipe(dest(`${destination}/js`));
   cb();
 }
-function server(cb) {
-  browserSync.init({
-    notify: false,
-    open: false,
-    server: {
-      baseDir: destination
-    }   
-  })
-  cb();
-}
 
-function watcher(cb) {
-  watch(`${origin}/**/*.html`).on('change', series(html, browserSync.reload))
-  watch(`${origin}/**/*.css`).on('change', series(css, browserSync.reload))
-  watch(`${origin}/**/*.js`).on('change', series(js, browserSync.reload))
-  cb();
-}
-
-
-
-exports.default = series(clean, parallel (html, css, js),server, watcher);
+exports.default = series(clean, parallel (html, css, js));
