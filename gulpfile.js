@@ -6,6 +6,10 @@ function html(cb) {
   src(`${origin}/**/*.html`).pipe(dest(destination));
   cb();
 }
+function css(cb) {
+  src(`${origin}/css/**/*.css`).pipe(dest(`${destination}/css`));
+  cb();
+}
 function js(cb) {
   // src(`${origin}/**/*.js`).pipe(dest(destination));
   src([
