@@ -6,5 +6,17 @@ function html(cb) {
   src(`${origin}/**/*.html`).pipe(dest(destination));
   cb();
 }
+function js(cb) {
+  // src(`${origin}/**/*.js`).pipe(dest(destination));
+  src([
+    `${origin}/js/lib/bootstrap.bundle.min.js`,
+    `${origin}/js/lib/fontawesome-all.min.js`,
+    `${origin}/js/lib/jquery.min.js`,
+    `${origin}/js/script.js`
+  ]).pipe(dest(`${destination}/js`));
+  cb();
+}
 
-exports.default = html;
+exports.html = html;
+exports.css = css;
+exports.js = js;
