@@ -1,6 +1,15 @@
 const {src, dest} = require('gulp');
+const del = require('del');
+
 const origin = 'src';
 const destination = 'build';
+
+function clean(cb) {
+  del(destination);
+  cb();
+}
+
+
 
 function html(cb) {
   src(`${origin}/**/*.html`).pipe(dest(destination));
@@ -24,3 +33,4 @@ function js(cb) {
 exports.html = html;
 exports.css = css;
 exports.js = js;
+exports.clean = clean;
