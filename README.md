@@ -1,21 +1,22 @@
-# COURSENAME
+# KURSNAME
 
-This is the repository for the LinkedIn Learning course on Gulp.js 4. 
+Dies ist das Repository für den LinkedIn Learning-Kurs über Gulp.js 4. 
 
-## Instructions
+## Anweisungen
 
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+Dieses Repository hat Zweige für jedes der Videos im Kurs. Sie können das Zweig-Aufklappmenü in github verwenden, um zu einem bestimmten Zweig zu wechseln und sich den Kurs in diesem Stadium anzusehen, oder Sie können `/tree/BRANCH_NAME` an die URL anhängen, um zu dem gewünschten Zweig zu gelangen.
 
-## Branches
+## Zweige
 
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter.
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `master` branch holds the final state of the code when in the course.
+Die Zweige sind so strukturiert, dass sie den Videos des Kurses entsprechen. Die Namenskonvention lautet `CHAPTER#_MOVIE#`. Der Zweig mit dem Namen `02_03` entspricht z. B. dem zweiten Kapitel und dem dritten Video in diesem Kapitel.
+Einige Zweige haben einen Anfangs- und einen Endzustand. Diese sind mit den Buchstaben `b` für "Anfang" und `e` für "Ende" gekennzeichnet. Der `b`-Zweig enthält den Code, wie er am Anfang des Films ist. Der "e"-Zweig enthält den Code, wie er sich am Ende des Films befindet. Der `master`-Zweig enthält den Endzustand des Codes, wenn er sich im Kurs befindet.
 
-## Installing
+## Installieren
 
-1. To use these exercise files, you must have the following installed:
+1. Um diese Übungsdateien zu verwenden, müssen Sie Folgendes installiert haben:
 
    - node.js
-   - git
+   - Git
 
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+2. Klonen Sie dieses Repository auf Ihren lokalen Rechner mit dem Terminal (Mac), CMD (Windows) oder einem GUI-Tool wie SourceTree.
+
