@@ -2,6 +2,8 @@
 
 Dies ist das Repository für den LinkedIn Learning-Kurs über Gulp.js 4. 
 
+## Über diesen Kurs
+
 ## Anweisungen
 
 Dieses Repository hat Zweige für jedes der Videos im Kurs. Sie können das Zweig-Aufklappmenü in github verwenden, um zu einem bestimmten Zweig zu wechseln und sich den Kurs in diesem Stadium anzusehen, oder Sie können `/tree/BRANCH_NAME` an die URL anhängen, um zu dem gewünschten Zweig zu gelangen.
