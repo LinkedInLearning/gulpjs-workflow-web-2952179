@@ -1,4 +1,4 @@
-# KURSNAME
+# Gulp.js: Workflow in Webprojekten (EN: Gulp.js: Web Project Workflows)
 
 Dies ist das Repository für den LinkedIn Learning-Kurs über Gulp.js 4. 
 
@@ -13,7 +13,7 @@ Einige Zweige haben einen Anfangs- und einen Endzustand. Diese sind mit den Buch
 
 ## Installieren
 
-1. Um diese Übungsdateien zu verwenden, müssen Sie Folgendes installiert haben:
+1. Um diese Übungsdateien zu verwenden, müssen Sie folgendes installiert haben:
 
    - node.js
    - Git
