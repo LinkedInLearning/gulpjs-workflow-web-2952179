@@ -1,4 +1,4 @@
-# Gulp.js: Workflow in Webprojekten (EN: Gulp.js: Web Project Workflows)
+# Gulp.js: Workflow in Webprojekten
 
 Dies ist das Repository für den LinkedIn Learning-Kurs über Gulp.js 4. 
 
