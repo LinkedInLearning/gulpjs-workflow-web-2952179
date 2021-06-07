@@ -3,6 +3,7 @@
 Dies ist das Repository für den **LinkedIn Learning**-Kurs über Gulp.js 4. 
 
 ## Über diesen Kurs
+Die Erstellung von Websites geht weit über das Programmieren und Zusammenstellen von HTML-, CSS- und JavaScript-Code hinaus: Gut, dass es praktische Tools wie CSS-Prozessoren gibt, die zum Beispiel dabei helfen, mit älteren Browsern kompatibel zu sein. In diesem Video-Training lernen Sie Gulp.js für die Verwaltung und Optimierung des gesamten Webentwicklungsprozesses kennen. Im Nu werden Sie die Konzepte hinter Gulp.js verstehen, und Sie sehen, wie Sie mit der aktuellen Version der Bibliothek effektiv arbeiten. Sie entwickeln Schritt für Schritt einen typischen Prozess und lernen dabei den Umgang mit seriellen und parallelen Tasks, um JavaScript und CSS mit dem Saas CSS Prozessor zu verarbeiten.
 
 ## Anweisungen
 
